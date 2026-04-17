@@ -8,10 +8,10 @@
 
 MFRC522 rfid(SS_PIN, RST_PIN);
 
-const char* ssid = "Kepler";
-const char* password = "3141527182";
+const char *ssid = "FPT Telecom-C944-IOT";
+const char *password = "24631aec";
 
-String serverUrl = "http://192.168.1.121:8000/rfid";
+String serverUrl = "http://192.168.79.115:8000/rfid";
 
 // Queue để gửi UID giữa các task
 QueueHandle_t uidQueue;

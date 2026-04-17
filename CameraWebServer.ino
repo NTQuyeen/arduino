@@ -9,8 +9,8 @@
 #include "board_config.h"
 
 // ================= WIFI =================
-const char *ssid = "Kepler";
-const char *password = "3141527182";
+const char *ssid = "FPT Telecom-C944-IOT";
+const char *password = "24631aec";
 
 void startCameraServer();
 void setupLedFlash();
